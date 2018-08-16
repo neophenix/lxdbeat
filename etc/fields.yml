@@ -1,0 +1,22 @@
+- key: lxdbeat
+  title: lxdbeat
+  description:
+  fields:
+    - name: lxdhost
+      type: string
+      description: Host machine of container
+    - name: container
+      type: string
+      description: Container name
+    - name: cpu
+      type: int64
+      description: CPU usage in seconds
+    - name: memory
+      type: int64
+      description: Memory usage in bytes
+    - name: processes
+      type: int64
+      description: Number of running processes
+    - name: network
+      type: object
+      description: A string -> string -> int64 collection (eth0->name->value)

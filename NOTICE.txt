@@ -1,0 +1,5 @@
+lxdbeat
+Copyright 2018 Brian Clapper
+
+This product includes software developed by The Apache Software
+Foundation (http://www.apache.org/).
