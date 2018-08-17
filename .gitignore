@@ -5,3 +5,5 @@
 /lxdbeat
 /lxdbeat.test
 *.pyc
+
+/vendor
